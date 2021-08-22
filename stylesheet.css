@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#navbarSupportedContent{
+    padding-left: 70%;
+}
+nav{
+    background-color: rgb(109, 169, 177);
+}
+nav>img{
+    height: 60px;
+}
+
+#join{
+    text-align: center;
+}
+#register{
+    text-align: center;
+    max-width: 600px;
+    max-height: 900px;
+}
+form{
+    margin: auto;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    border-style: groove;   
+}
+form>h4{
+    text-align: center;
+}
+#register>label{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+}
+#register>input{
+    min-width: 100px;
+    max-width: 400px;
+}
+form>select{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+form>.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+form>p{
+    color: rgb(107, 105, 105);
+}
+.card>img{
+    max-height: 300px;
+    max-width: 300px;   
+}
+.card{
+    display: flex;
+    align-items: center;
+    background-color: rgb(143, 208, 224);
+    text-align: center;
+}
+#elon{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    background-color: rgb(142, 208, 224);
+}
+.title{
+    text-align: center;
+}
+#foot>img{
+    max-width: 30px;
+    max-height: 30px;
+    padding: 1px;
+}
+#foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+footer{
+    background-color: rgb(203, 206, 206);
+}
+table{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+th,td{
+    border-style: solid;
+    width: 100px;
+    height: 10px;
+    padding: 2%;
+}
+h4{
+    text-align: center;
+}
